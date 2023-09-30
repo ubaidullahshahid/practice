@@ -1,0 +1,201 @@
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+}
+.logo{
+    border: 4px solid black;
+    width: 10vw;
+    text-align: center;
+    font-size: 3.5vw;
+    margin: 0px;
+}
+.menu-bar-container{
+    display: flex;
+    justify-content: center;
+    border: 4px solid black;
+    line-height: 6vh;
+    
+}
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    font-size: 1.5vw;
+    margin: 0px;
+}
+.left-right-container{
+    padding: 10px;
+    margin-top: 5vh;
+    display: flex;
+    border: 4px solid black;
+}
+.left{
+    border: 2px solid black;
+    width: 50vw;
+    height: 40vh;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    font-size: 1.5vw;
+    margin: 1vw;
+    width: 50vw;
+}
+.right .button-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 1vw;
+    height: 12.5vh;
+}
+.button-container button{
+    width: 11vw;
+    height: 8vh;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 4px;
+}
+.paraghraph-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.paraghraph-container h1{
+    margin: 0px;
+}
+.paraghraph-container p{
+    margin: 0px;
+    width: 25vw;    
+}
+.para1-container{
+    border: 2px solid black;
+    padding: 20px;
+}
+.para1-hd{
+margin: 0px;
+}
+.para2-container{
+    border: 2px solid black;
+    padding: 20px;
+
+}
+.para2-container p{
+    padding: 10px;
+}
+.para3-container{
+    border: 2px solid black;
+    display: flex;
+    padding: 20px;
+}
+.para3-container p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.copy-right{
+    text-align: center;
+    border: 2px solid black;
+    line-height: 5vh;
+}
+
+@media (max-width:600px) {
+    .logo{
+        font-size: 6vw;
+        line-height: 6vh;
+        width: 20vw;
+        border: 2px solid black;
+    }
+    .menu-bar-container{
+        border: 2px solid black;
+    }
+    .menu-bar{
+        font-size: 4vw;
+        width: 70vw;
+        justify-content: space-between;
+    }
+    .left-right-container{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        height: calc(100vh - 30vh);
+    }
+    .left{
+        width: 100%;
+        height: 50vh;
+        font-size: 6vw;
+    }
+    .right{
+        width: 100%;
+        height: 50vh;
+        font-size: 4vw;
+    }
+    .button-container{
+       justify-content: flex-end;
+       align-items: flex-end;
+    }
+    .button-container button{
+        width: 25vw;
+    }
+    .paraghraph-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .para1-container{
+        border: 2px solid black;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para1-container p{
+        width: 60vw;
+        text-align: center;
+        margin: 0px;
+    }
+    .para2-container{
+        border: 2px solid black;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para2-container p{
+        width: 60vw;
+        text-align: center;
+        margin: 0px;
+    }
+    .para3-container{
+        border: 2px solid black;
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .para3-container p{
+        width: 60vw;
+        text-align: center;
+        margin: 0px;
+    }
+    .navbar-brand{
+background-color: blue;
+    }
+    .search{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .icon-and-searchbar{
+        display: flex;
+    }
+}
